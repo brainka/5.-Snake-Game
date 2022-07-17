@@ -1,0 +1,80 @@
+body {
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Rubik', sans-serif;
+}
+
+#canvas {
+	/* border: 5px solid black; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wall {
+	border: black 4px solid;
+}
+
+#score {
+	text-align: center;
+	margin-top: 5%;
+}
+
+#canvas2 {
+	/* border: 5px solid black; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#canvas3 {
+	/* border: 5px solid black; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.visability-on {
+	visibility: visible;
+}
+
+.visability-off {
+	visibility: hidden;
+}
+
+.buttons {
+	display: flex;
+
+	justify-content: space-evenly;
+
+	top: 10%;
+}
+
+button {
+	appearance: none;
+	border: 0;
+	border-radius: 5px;
+	background: #35b963;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+	/* box-shadow: 0 0 0 4px #35b963; */
+}
+
+button:hover {
+	background: #1a7d3d;
+}
+
+
+#score {
+	font-size: 20px;
+	padding: 30px;
+	font-weight: bold;
+}
